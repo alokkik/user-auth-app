@@ -2,7 +2,14 @@
 This application contains JWT based user authentication, sign-in, sign-up, token revocation and refreshment.
 
 
-### How to run the application on your local:
+## How to run the application on your local:
+#### Note: This application uses PostgreSQL as database.
+```
+For Mac: brew install postgresql@14
+for Ubuntu: sudo apt install postgresql
+For Windows: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+```
+
 1. Go to ```user-auth-app```
 2. To create a ```.venv```, run ```python3 -m venv .venv```
 3. Run ```source .venv/bin/activate``` to activate virtual environment.
